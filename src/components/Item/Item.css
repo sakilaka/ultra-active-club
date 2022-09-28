@@ -1,0 +1,26 @@
+.item{
+    height: 450px;
+    width: 250px;
+    border: 2px solid black;
+    border-radius: 15px;
+    box-shadow: 5px 4px 6px grey;
+    padding: 10px;
+}
+.item img{
+    width: 220px;
+    height: 200px;
+    margin-left: 10px;
+}
+
+.item p{
+    margin-left: -4px;
+}
+.item button{
+    width: 100%;
+    color: red;
+    background-color: black;
+    border-radius: 5px;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: bold;
+}
