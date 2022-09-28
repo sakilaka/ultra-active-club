@@ -41,13 +41,13 @@ p{
     margin-left: -60px;
     color: white;
 }
-.break-time{
+.break{
     margin-bottom: 30px;
 }
-.break-time h2{
+.break h2{
     color: white;
 }
-.break-time button{
+.break button{
     margin: 10px;
     border-radius: 70px;
     padding: 8px 10px;
@@ -55,4 +55,24 @@ p{
     font-weight: bold;
     border: none;
 }
+.Ex-details h2{
+    color: white;
+    margin-bottom: 30px;
+}
 
+.time {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.time h2,p{
+    color: white;
+}
+.break-time {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.break-time h2,p{
+    color: white;
+}

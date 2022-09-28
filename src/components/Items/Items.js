@@ -50,7 +50,7 @@ const Items = () => {
 
               <hr />
 
-              <div className='break-time'>
+              <div className='break'>
                 <h2>Add a break</h2>
                 <div className='btn'>
                     <button>10s</button>
@@ -63,7 +63,21 @@ const Items = () => {
 
               <hr />
                <div className='Ex-details'>
+                 <h2>Exercise Details</h2>
+                 <div className='time'>
+                    <h2>Exercise Time</h2>
+                    <p>{200}</p>
+                 </div>
+                 <div className="break-time">
+                    <h2>Break Time</h2>
+                    <p>{23}</p>
+                 </div>
+               </div>
 
+               <hr />
+
+               <div>
+                <button>Activity Completed</button>
                </div>
             </div>
         </div>
