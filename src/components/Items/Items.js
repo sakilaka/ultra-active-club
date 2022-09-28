@@ -77,7 +77,7 @@ const Items = () => {
                <hr />
 
                <div>
-                <button>Activity Completed</button>
+                 <button className='com-btn'>Activity Completed</button>
                </div>
             </div>
         </div>

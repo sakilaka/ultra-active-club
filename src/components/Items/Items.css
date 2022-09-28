@@ -65,7 +65,10 @@ p{
     justify-content: space-around;
     align-items: center;
 }
-.time h2,p{
+.time h2{
+    color: white;
+}
+.time p{
     color: white;
 }
 .break-time {
@@ -73,6 +76,48 @@ p{
     justify-content: space-around;
     align-items: center;
 }
-.break-time h2,p{
+.break-time h2{
     color: white;
+}
+.break-time p{
+    color: white;
+}
+
+.com-btn{
+    background-color: black;
+    color: red;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 18px 12px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 570px){
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+    .all-items{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 270px;
+    }
+}
+@media screen and (min-width: 571px) and (max-width: 768px){
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+    .all-items{
+        display: grid;
+        grid-template-columns: repeat(2 , 1fr);
+        gap: 30px;
+        margin-bottom: 120px;
+    }
+    .calculation-cart{
+        width: 70%;
+        margin: auto;
+    }
 }
