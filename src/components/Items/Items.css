@@ -38,6 +38,21 @@ p{
     justify-content: center;
     align-items: center;
     margin-top: 50px;
-    margin-left: -50px;
+    margin-left: -60px;
     color: white;
 }
+.break-time{
+    margin-bottom: 30px;
+}
+.break-time h2{
+    color: white;
+}
+.break-time button{
+    margin: 10px;
+    border-radius: 70px;
+    padding: 8px 10px;
+    background-color: white;
+    font-weight: bold;
+    border: none;
+}
+

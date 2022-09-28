@@ -47,6 +47,24 @@ const Items = () => {
                   <p>23yrs</p>
                 </div>
               </div>
+
+              <hr />
+
+              <div className='break-time'>
+                <h2>Add a break</h2>
+                <div className='btn'>
+                    <button>10s</button>
+                    <button>20s</button>
+                    <button>30s</button>
+                    <button>40s</button>
+                    <button>50s</button>
+                </div>
+              </div>
+
+              <hr />
+               <div className='Ex-details'>
+
+               </div>
             </div>
         </div>
       
