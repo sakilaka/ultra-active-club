@@ -5,13 +5,34 @@ import './Items.css';
 const Items = () => {
 
     const [items , setItems] = useState([]);
+    const [exTime , setExTime] = useState(0);
+    const [breakTime, setBreakTime] = useState(0);
+
+
+    const handleBreakTime = selectedBreakTime => {
+        localStorage.setItem("Break-Time", selectedBreakTime);
+        setBreakTime(selectedBreakTime);
+    };
+
+    useEffect(() => {
+        const getBreakTime = localStorage.getItem("breakDays");
+        setBreakTime(getBreakTime);
+    }, []);
+
 
     useEffect(()=>{
         fetch('fakeData.json')
         .then(res => res.json())
         .then(data => setItems(data))
     },[])
+
     
+    const addTime = (time) =>{
+      setExTime(exTime + parseInt(time))
+    }
+ 
+    
+
     return (
         <div className='container'>
            
@@ -19,14 +40,14 @@ const Items = () => {
                 {
                     items.map(item => <Item
                         key={item.id}
-                        item={item}>
-                        </Item>)
-                            
+                        item={item}
+                        btn={addTime}>
+                        </Item>)      
                 }
             </div>
             <div className='calculation-cart'>
               <div className='info'>
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_Sm1438yn7VJ7OvRLUXjNdHwntH6JEmoonw&usqp=CAU" alt="" />
+                <img src="WhatsApp Image 2022-09-29 at 2.05.18 AM.jpeg" alt="" />
                 <div>
                     <p>Kamrul Hasan</p>
                     <p>Sadarghat,Chittagong</p>
@@ -53,11 +74,11 @@ const Items = () => {
               <div className='break'>
                 <h2>Add a break</h2>
                 <div className='btn'>
-                    <button>10s</button>
-                    <button>20s</button>
-                    <button>30s</button>
-                    <button>40s</button>
-                    <button>50s</button>
+                    <button onClick={()=>handleBreakTime(10)}>10s</button>
+                    <button onClick={()=>handleBreakTime(20)}>20s</button>
+                    <button onClick={()=>handleBreakTime(30)}>30s</button>
+                    <button onClick={()=>handleBreakTime(40)}>40s</button>
+                    <button onClick={()=>handleBreakTime(50)}>50s</button>
                 </div>
               </div>
 
@@ -66,11 +87,11 @@ const Items = () => {
                  <h2>Exercise Details</h2>
                  <div className='time'>
                     <h2>Exercise Time</h2>
-                    <p>{200}</p>
+                    <p>{exTime}</p>
                  </div>
                  <div className="break-time">
                     <h2>Break Time</h2>
-                    <p>{23}</p>
+                    <p>{breakTime}</p>
                  </div>
                </div>
 

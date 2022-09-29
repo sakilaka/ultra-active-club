@@ -3,56 +3,56 @@
       "id": "633460806b728b1ce82d339f",
       "picture": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8Z3ltfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
       "name": "Lunges",
-      "time": "50s",
+      "time": "50",
       "days": "2 days"
     },
     {
       "id": "63346080b08e1ddc5d6ee811",
       "picture": "https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8Z3ltfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
       "name": " dumbbell presses",
-      "time": "20s",
+      "time": "20",
       "days": "5 days"
     },
     {
       "id": "63346080e25c9ebed4a39ba3",
       "picture": "https://images.unsplash.com/photo-1605296867304-46d5465a13f1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fGd5bXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
       "name": "Dumbbell rows",
-      "time": "30s",
+      "time": "30",
       "days": "3 days"
     },
     {
       "id": "6334608088168c117056858e",
       "picture": "https://images.unsplash.com/photo-1518611012118-696072aa579a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjZ8fGd5bXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
       "name": "leg deadlifts",
-      "time": "60s",
+      "time": "60",
       "days": "1 days"
     },
     {
       "id": "633460803f79d37c48bbec9d",
       "picture": "https://images.unsplash.com/photo-1507398941214-572c25f4b1dc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjV8fGd5bXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
       "name": "Squat Rack",
-      "time": "40s",
+      "time": "40",
       "days": "4 days"
     },
     {
       "id": "63346080ae0441c9efb16c65",
       "picture": "https://images.unsplash.com/photo-1534258936925-c58bed479fcb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzV8fGd5bXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
       "name": "Cable Crossover",
-      "time": "30s",
+      "time": "30",
       "days": "3 days"
     },
     {
       "id": "6334608051a91320addbc3b9",
       "picture": "https://images.unsplash.com/photo-1574680096145-d05b474e2155?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzJ8fGd5bXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
       "name": "Hammer Strength",
-      "time": "50s",
+      "time": "50",
       "days": "7 days"
     },
     {
       "id": "633460803bf3db05f0a41f43",
       "picture": "https://images.unsplash.com/photo-1571731956672-f2b94d7dd0cb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzB8fGd5bXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
       "name": "Chest Press Machine",
-      "time": "60s",
+      "time": "60",
       "days": "3 days"
     }
   ]
