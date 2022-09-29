@@ -1,0 +1,39 @@
+.ques h1{
+    color: red;
+    background-color: black;
+    padding: 20px;
+    margin-top: 70px;
+    font-size: 40x;
+    text-align: center;
+    box-shadow: 10px 11px 12px grey;
+}
+.ques h2{
+    text-align: center;
+}
+.ques1{
+    background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+    text-align: center;
+    padding: 30px;
+    width: 80%;
+    margin: auto;
+    margin-top: 30px;
+}
+.ques2{
+    background-image: linear-gradient(to top, #cd9cf2 0%, #f6f3ff 100%);
+    text-align: center;
+    padding: 30px;
+    width: 80%;
+    margin: auto;
+    margin-top: 70px;
+}
+.ques3{
+    background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
+    text-align: center;
+    padding: 30px;
+    width: 80%;
+    margin: auto;
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+   
+
