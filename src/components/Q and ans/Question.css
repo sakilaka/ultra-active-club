@@ -35,5 +35,19 @@
     margin-top: 70px;
     margin-bottom: 50px;
 }
+
+
+@media screen and (max-width: 570px){
+
+    .ques1{
+        text-align: start;
+    }
+    .ques2{
+        text-align: start;
+    }
+    .ques3{
+        text-align: start;
+    }
+}
    
 

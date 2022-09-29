@@ -84,11 +84,11 @@ const Items = () => {
               <div className='break'>
                 <h2>Add a break</h2>
                 <div className='btn'>
-                    <button onClick={()=>handleBreakTime(10)}>10s</button>
-                    <button onClick={()=>handleBreakTime(20)}>20s</button>
-                    <button onClick={()=>handleBreakTime(30)}>30s</button>
-                    <button onClick={()=>handleBreakTime(40)}>40s</button>
-                    <button onClick={()=>handleBreakTime(50)}>50s</button>
+                    <button onClick={(e)=>handleBreakTime(e.target.innerText)}>10</button>
+                    <button onClick={(e)=>handleBreakTime(e.target.innerText)}>20</button>
+                    <button onClick={(e)=>handleBreakTime(e.target.innerText)}>30</button>
+                    <button onClick={(e)=>handleBreakTime(e.target.innerText)}>40</button>
+                    <button onClick={(e)=>handleBreakTime(e.target.innerText)}>50</button>
                 </div>
               </div>
 

@@ -11,7 +11,7 @@ const Header = () => {
                 <FontAwesomeIcon className='icon' icon={faDumbbell}></FontAwesomeIcon>
                 <h1>Sakil Gymnasium</h1>
            </div>
-            <p>Select today's exercise & find total time</p>
+            <p className='p' >Select today's exercise & find total time</p>
         </div>
     );
 };

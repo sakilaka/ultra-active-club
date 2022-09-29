@@ -103,7 +103,9 @@ p{
         display: flex;
         flex-direction: column;
         margin-bottom: 270px;
+        margin-left: 30px;
     }
+
 }
 @media screen and (min-width: 571px) and (max-width: 768px){
     .container{
