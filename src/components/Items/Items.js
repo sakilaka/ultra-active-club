@@ -6,7 +6,7 @@ const Items = () => {
 
     const [items , setItems] = useState([]);
     const [exTime , setExTime] = useState(0);
-    const [breakTime, setBreakTime] = useState(0);
+    const [breakTime, setBreakTime] = useState();
 
 
     const handleBreakTime = selectedBreakTime => {
@@ -15,7 +15,7 @@ const Items = () => {
     };
 
     useEffect(() => {
-        const getBreakTime = localStorage.getItem("breakDays");
+        const getBreakTime = localStorage.getItem("Break-Time");
         setBreakTime(getBreakTime);
     }, []);
 
@@ -87,11 +87,11 @@ const Items = () => {
                  <h2>Exercise Details</h2>
                  <div className='time'>
                     <h2>Exercise Time</h2>
-                    <p>{exTime}</p>
+                    <p>{exTime} seconds</p>
                  </div>
                  <div className="break-time">
                     <h2>Break Time</h2>
-                    <p>{breakTime}</p>
+                    <p>{breakTime} seconds</p>
                  </div>
                </div>
 
